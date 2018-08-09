@@ -27,7 +27,7 @@ public class Message {
 	private long time = new Date().getTime();
 
 	public String getMessage() {
-		return this.message;
+		return this.message + " tjoho";
 	}
 
 	public void setMessage(String message) {
